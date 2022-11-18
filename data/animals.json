@@ -1,0 +1,56 @@
+{
+  "animals": [
+    {
+      "id": "0",
+      "name": "Boo Boo",
+      "species": "bear",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "loving"
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Travis",
+      "species": "chimpanzee",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "anxious",
+        "goofy"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Koko",
+      "species": "gorilla",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "quirky",
+        "rash"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Yogi",
+      "species": "bear",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "impish",
+        "sassy",
+        "brave"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Skipper",
+      "species": "penguin",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "loving",
+        "goofy"
+      ]
+    }
+  ]
+}
