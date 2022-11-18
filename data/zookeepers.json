@@ -1,0 +1,34 @@
+{
+  "zookeepers": [
+    {
+      "id": "0",
+      "name": "Kim",
+      "age": 23,
+      "favoriteAnimal": "chimpanzee"
+    },
+    {
+      "id": "1",
+      "name": "Bob",
+      "age": 17,
+      "favoriteAnimal": "penguin"
+    },
+    {
+      "id": "2",
+      "name": "Adam",
+      "age": 31,
+      "favoriteAnimal": "bear"
+    },
+    {
+      "id": "3",
+      "name": "Anthony",
+      "age": 25,
+      "favoriteAnimal": "horse"
+    },
+    {
+      "id": "4",
+      "name": "Mike",
+      "age": 19,
+      "favoriteAnimal": "chimpanzee"
+    }
+  ]
+}
