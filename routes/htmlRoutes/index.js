@@ -11,4 +11,9 @@ router.get("/animals", (req, res) => {
     res.sendFile(path.join(__dirname, "../../public/animals.html"));
 });
 
+router.get("/zookeepers", (req, res) => {
+    // sends zookeepers.html to be the /zookeepers page for the site
+    res.sendFile(path.join(__dirname, "../../public/zookeepers.html"));
+});
+
 module.exports = router;
