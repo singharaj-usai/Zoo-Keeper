@@ -60,9 +60,9 @@ test("finds by id", () => {
         },
     ];
 
-    const result = findById("3", startingAnimals);
+    const result = findById("2", startingAnimals);
 
-    expect(result.name).toBe("Erica");
+    expect(result.name).toBe("Koko");
 });
 
 test("validates personality traits", () => {
@@ -75,12 +75,11 @@ test("validates personality traits", () => {
     };
 
     const invalidAnimal = {
-        id: "2",
-        name: "Koko",
-        species: "gorilla",
+        id: "1",
+        name: "Travis",
+        species: "chimpanzee",
         diet: "herbivore",
-        personalityTraits: ["quirky", "rash"],
-    }
+    };
 
     const result = validateAnimal(animal);
     const result2 = validateAnimal(invalidAnimal);

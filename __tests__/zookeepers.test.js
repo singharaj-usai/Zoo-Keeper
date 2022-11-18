@@ -35,7 +35,7 @@ test("filters by query", () => {
         },
     ];
 
-    const updatedZookeepers = filterByQuery({ age: 31 }, startingZookeepers);
+    const updatedZookeepers = filterByQuery({ age: 17 }, startingZookeepers);
 
     expect(updatedZookeepers.length).toEqual(1);
 });
@@ -56,9 +56,9 @@ test("finds by id", () => {
         },
     ];
 
-    const result = findById("3", startingZookeepers);
+    const result = findById("2", startingZookeepers);
 
-    expect(result.name).toBe("Isabella");
+    expect(result.name).toBe("Adam");
 });
 
 test("validates age", () => {
