@@ -16,7 +16,7 @@
 💻 This is a zookeeping catalog app using Express.js and Json to save data about zookeepers and animals like a book!
 
 * Instructions
-    * Go to https://zoo-keeper0.herokuapp.com/ to test out the website!
+    * Go to https://zoo-keeper.onrender.com to test out the website!
 * Download the repo
     * If you want to download the repo to your machine,  the green `git clone` button tab to download the files to your computer.
     * On your IDE, use the terminal and type `npm i` and enter to install node_modules.
